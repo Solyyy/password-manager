@@ -133,18 +133,6 @@ def encrypt_your_data():
     except (FileNotFoundError, json.decoder.JSONDecodeError):
         messagebox.showinfo(title="Error", message="No data file found, please save an Username/Password first. "
                                                    "Or your file is encrypted already.")
-    # else:
-    #     try:
-    #         KEY = load_key()
-    #     except FileNotFoundError:
-    #         write_key()
-    #         # load the key
-    #         KEY = load_key()
-    #         # encrypt it
-    #         encrypt(FILE, KEY)
-    #         messagebox.showinfo(title="Error",
-    #                             message="Your private encryption key has been created and your data has been "
-    #                                     "encrypted. Run Decrypt data to decrypt your data..")
 
 
 # ---------------------------- Decrypting file ------------------------------- #
