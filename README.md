@@ -17,4 +17,4 @@ This project is a Password Manager, using Graphical User Interface (GUI) and Tki
 5. random
 
 # License
-- [MIT License](https://github.com/Solyyy/password-manager/blob/LICENSE.TXT)
+- [MIT License](https://github.com/Solyyy/password-manager/blob/main/LICENSE.TXT)
