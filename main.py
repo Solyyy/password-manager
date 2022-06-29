@@ -216,5 +216,7 @@ except FileNotFoundError:
     question = messagebox.showinfo(title="Error", message="No encryption key found... "
                                                           "Automatically creating an encryption key.")
     write_key()
-
+    window.focus_force()
+    website_entry.focus()
+    
 window.mainloop()
